@@ -1,0 +1,5 @@
+rootProject.name = 'gradle-retrolambda-project'
+
+include ':sample-java'
+
+includeBuild './gradle-retrolambda'

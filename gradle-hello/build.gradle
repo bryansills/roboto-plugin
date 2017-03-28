@@ -1,0 +1,15 @@
+plugins {
+    id "java-gradle-plugin"
+}
+
+group "ninja.bryansills.hello-plugin"
+version '1.0.0'
+
+gradlePlugin {
+    plugins {
+        helloPlugin {
+            id = "ninja.bryansills.hello-plugin"
+            implementationClass = "ninja.bryansills.HelloPlugin"
+        }
+    }
+}
