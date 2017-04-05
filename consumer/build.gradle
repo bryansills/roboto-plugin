@@ -1,0 +1,8 @@
+buildscript {
+    repositories {
+        // To function outside a composite, a plugin repository would be required.
+    }
+    dependencies {
+    }
+}
+
